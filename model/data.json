@@ -1,0 +1,60 @@
+[
+  {
+    "data": {
+      "id": "def_one",
+      "label": "첫번째"
+    }
+  },
+  {
+    "data": {
+      "id": "sub_def_one",
+      "label": "두번째"
+    }
+  },
+  {
+    "data": {
+      "id": "def_one->sub_def_one",
+      "source": "sub_def_one",
+      "target": "def_one"
+    }
+  },
+  {
+    "data": {
+      "id": "sub_sub_def_one",
+      "label": "세번째"
+    }
+  },
+  {
+    "data": {
+      "id": "sub_def_one->sub_sub_def_one",
+      "source": "sub_sub_def_one",
+      "target": "sub_def_one"
+    }
+  },
+  {
+    "data": {
+      "id": "sub_def_two",
+      "label": "네번째"
+    }
+  },
+  {
+    "data": {
+      "id": "def_one->sub_def_two",
+      "source": "sub_def_two",
+      "target": "def_one"
+    }
+  },
+  {
+    "data": {
+      "id": "sub_sub_def_two",
+      "label": "다섯번째"
+    }
+  },
+  {
+    "data": {
+      "id": "sub_def_two->sub_sub_def_two",
+      "source": "sub_sub_def_two",
+      "target": "sub_def_two"
+    }
+  }
+]
